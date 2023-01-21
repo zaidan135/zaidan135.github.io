@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d9a94bae06.js" crossorigin="anonymous"></script>
+    <title>TUGAS_AKHIR</title>
+</head>
+<body>
+<!--------------------------------content--------------------------------->
+<div class="container">
+    <!--------------------------------container1--------------------------------->
+    <section class="container1">
+        <img src="new.png">
+    </section>
+    <!--------------------------------container 1--------------------------------->
+
+    <!--------------------------------container 2--------------------------------->
+    <section class="container2">
+        <div class="nav1">
+            <button class="w3-bar-item w3-button" onclick="openKota('Home')"><i class="fa-solid fa-house"></i></button>
+            <button class="w3-bar-item w3-button" onclick="openKota('Top')"><i class="fa-solid fa-arrow-down"></i></button>
+            <button class="w3-bar-item w3-button" onclick="openKota('left')"><i class="fa-solid fa-arrow-right"></i></button>
+            <button class="w3-bar-item w3-button" onclick="openKota('Right')"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="w3-bar-item w3-button" onclick="openKota('Bottom')"><i class="fa-solid fa-arrow-up"></i></button>
+            <button class="w3-bar-item w3-button" onclick="openKota('Zoom')"><i class="fa-solid fa-arrows-up-down-left-right"></i></button>
+            <button class="w3-bar-item w3-button" onclick="openKota('Opacity')"><i class="fa-solid fa-circle-half-stroke"></i></button>
+            <button class="w3-bar-item w3-button" onclick="openKota('Spin')"><i class="fa-solid fa-arrows-rotate"></i></button>
+            <div class="w3-dropdown-hover">
+                <button class="w3-button w3-round-xlarge"><i class="fa-solid fa-bars"></i></button>
+                <div class="w3-dropdown-content">
+                    <div class="dc">
+                    <button id="bl" class="w3-button" onclick="openKota('Top')">Top</button>
+                    <button id="bl" class="w3-button" onclick="openKota('left')">Left</button>
+                    <button id="bl" class="w3-button" onclick="openKota('Right')">Right</button>
+                    <button id="bl" class="w3-button" onclick="openKota('Bottom')">Bottom</button>
+                    <button id="bl" class="w3-button" onclick="openKota('Zoom')">Zoom</button>
+                    <button id="bl" class="w3-button" onclick="openKota('Opacity')">Opacity</button>
+                    <button id="bl" class="w3-button" onclick="openKota('Spin')">Spin</button></div>            
+                </div>
+            </div>        
+        </div>
+        <div class="nav21">
+            <div class="nav22">
+                <button id="pp" class="w3-button w3-round-xlarge" onclick="openKota('Fading')"><i class="fa-solid fa-user"></i></i></button>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------container 2--------------------------------->
+
+    <!--------------------------------container 3--------------------------------->
+    <section class="container3">
+        <div class="dk"></div>
+        <div class="kotak">
+            <div class="card">
+                <div id="Home" class="w3-container kota w3-middle">
+                    <center>
+                        <h1><div class="ignielGlitch" data-text="SELAMAT DATANG">SELAMAT DATANG</div></h1>
+                        <br>
+                        <p style="font-size: 20px; font-family: monospace;">Ini adalah web tentang cara menjadi pria idaman para wanita. Disini kalian akan dipandu untuk menjadi pria idaman.</p><br><p>Tekan tombol ikon pada bar untuk langkah-langkah menjadi pria idaman</p><br><p><i>!!PERINGATAN HALAMAN 7 AWAS PUSING!!</i></p>
+                </div>
+                
+                <div id="Top" class="w3-container kota w3-animate-top w3-middle" style="display:none">
+                    <center>
+                    <h1>FASHIONABLE</h1>
+                    <p></p>
+                    <img class="image1" src="c1.jpg">
+                </div>
+                
+                <div id="left" class="w3-container kota w3-animate-left w3-middle" style="display:none">
+                    <center>
+                    <h1>GOOD LOOKING</h1>
+                    <p></p>
+                    <img class="image2" src="c2.jpg">
+                </div>
+                
+                <div id="Right" class="w3-container kota w3-animate-right" style="display:none">
+                    <center>
+                    <h1>BANYAK DUIT</h1>
+                    <p></p>
+                    <img class="image3" src="c3.jpg">
+                </div>
+                
+                <div id="Bottom" class="w3-container kota w3-animate-bottom" style="display:none">
+                    <center>
+                    <h1>PUNYA CBR</h1>
+                    <p></p>
+                    <img class="image4" src="c4.jpg">
+                </div>
+                
+                <div id="Zoom" class="w3-container kota w3-animate-zoom" style="display:none">
+                    <center>
+                    <h1>ORANG TUA KAYA</h1>
+                    <p></p>
+                    <img class="image5" src="c5.jpg">
+                </div>
+                
+                <div id="Fading" class="w3-container kota" style="display:none">
+                    <center>
+                    <h1><div class="ignielGlitch" data-text="BIODATA">BIODATA</div></h1>
+                    <p style="font-size: 25px; font-family: monospace;">Nama : Zaidan Febriandi <br>NIM  : 10122231 <br>Kelas    : IF 6 <br>Mata Kuliah   : Pemerograman Web</p>
+                    <img class="pp" src="c2.jpg">
+                </div>
+            
+                <div id="Opacity" class="w3-container kota w3-animate-opacity" style="display:none">
+                    <center>
+                    <h1>YANG PENTING YAKIN</h1>
+                    <p></p>
+                    <img class="image6" src="C6.png">
+                </div>
+                
+                <div id="Spin" class="w3-container kota w3-spin" style="display:none">
+                    <center>
+                    <img class="image7" src="c7.png">
+                </div>
+            </div>
+        </div>
+        <div class="dk"></div>
+    </section>
+    <!--------------------------------container 3--------------------------------->
+</div>
+<!--------------------------------content--------------------------------->
+
+<!--------------------------------script--------------------------------->
+<script>
+    function openKota(namakota) {
+     var i;
+     var x = document.getElementsByClassName("kota");
+     for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none"; 
+     }
+     document.getElementById(namakota).style.display = "block"; 
+    }
+</script>
+<!--------------------------------script--------------------------------->
+
+
+</body>
+</html>

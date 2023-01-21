@@ -1,0 +1,191 @@
+html {
+    background: url('ini.png')no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container {
+    display: block;
+}
+/*****************************container 1**********************************/
+.container1 {
+    display: block;
+}
+.container1 img {
+    width: 100%;
+    height: 300px;
+}
+/*****************************container 1**********************************/
+
+/*****************************container 2**********************************/
+.container2 {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(2, 53, 129, 0.671);
+    position: sticky;
+    top: 0;
+    z-index: 7;
+}
+.container2 {
+    background: linear-gradient(270deg, #fd77e7b0, #ff6600b6, #5d68ffa9, #fcff52b6, #ff3e3ea6, #2600ff77, #00d9ff86, #0011ff81, #08007485, #00d9ff73);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.nav1 {
+    display: flex;
+    width: fit-content;
+    height: 40px;
+    background-color: #ff6600;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.nav21 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+.nav22 {
+    width: fit-content;
+    height: auto;
+    background-color: #fd77e7;
+    border-radius: 20px;
+    margin-right: 5%;
+}
+.dc {
+    display: flex;
+    flex-direction: column;
+}
+#bl {
+    display: block;
+}
+/*****************************container 2**********************************/
+
+/*****************************container 3**********************************/
+.container3 {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+.kotak {
+    display: block;
+}
+.card {
+    width: auto;
+    height: 500px;
+    overflow: hidden;
+    background-color: rgba(195, 209, 255, 0.856);
+    border-radius: 40px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.image1 {
+    width: 80%;
+    height: auto;
+}
+.image2 {
+    width: 60%;
+    height: auto;
+}
+.image3 {
+    width: 60%;
+    height: auto;
+}
+.image4 {
+    width: 70%;
+    height: auto;
+}
+.image5 {
+    width: 70%;
+    height: auto;
+}
+.image6 {
+    width: 50%;
+    height: auto;
+}
+.image7 {
+    width: 70%;
+    height: auto;
+}
+.pp {width: 40%;
+    height: auto;
+}
+#Home {
+    margin: 10% 5% 10% 5%;
+}
+#Top {
+    margin-top: 5%;
+}
+#left {margin-top: 5%;
+}
+#Right {margin-top: 5%;
+}
+#Bottom {margin-top: 5%;
+}
+#Zoom {margin-top: 5%;
+}
+#Opacity {margin-top: 5%;
+}
+#Spin {
+    margin-top: 15%;
+}
+
+/*****************************container 3**********************************/
+
+/* Text Glitch (Grunge) Effect by igniel.com */
+.ignielGlitch {
+    color: rgb(20, 92, 224);
+    font-family: monospace;
+    position: relative;
+    animation: ignielGlitch1 5s infinite;
+    -moz-animation: ignielGlitch1 5s infinite;
+    -webkit-animation: ignielGlitch1 5s infinite;
+    -o-animation: ignielGlitch1 5s infinite;
+  }
+  .ignielGlitch:before,  .ignielGlitch:after {
+    content: attr(data-text);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+  }
+  .ignielGlitch:before {
+    color: #000;
+    animation: ignielGlitch2 5s infinite;
+    -moz-animation: ignielGlitch2 5s infinite;
+    -webkit-animation: ignielGlitch2 5s infinite;
+    -o-animation: ignielGlitch2 5s infinite;
+  }
+  .ignielGlitch:after {
+    color: #000;
+    animation: ignielGlitch3 5s infinite;
+    -moz-animation: ignielGlitch3 5s infinite;
+    -webkit-animation: ignielGlitch3 5s infinite;
+    -o-animation: ignielGlitch3 5s infinite;
+  }
+  @keyframes ignielGlitch1{0% {transform: none;opacity: 1;}7% {transform: skew(-0.5deg, -0.9deg);opacity: 0.75;}10% {transform: none;opacity: 1;}27% {transform: none;opacity: 1;}30% {transform: skew(0.8deg, -0.1deg);opacity: 0.75;}35% {transform: none;opacity: 1;}52% {transform: none;opacity: 1;}55% {transform: skew(-1deg, 0.2deg);opacity: 0.75;}50% {transform: none;opacity: 1;}72% {transform: none;opacity: 1;}75% {transform: skew(0.4deg, 1deg);opacity: 0.75;}80% {transform: none;opacity: 1;}100% {transform: none;opacity: 1;}}
+  @-webkit-keyframes ignielGlitch1{0% {transform: none;opacity: 1;}7% {transform: skew(-0.5deg, -0.9deg);opacity: 0.75;}10% {transform: none;opacity: 1;}27% {transform: none;opacity: 1;}30% {transform: skew(0.8deg, -0.1deg);opacity: 0.75;}35% {transform: none;opacity: 1;}52% {transform: none;opacity: 1;}55% {transform: skew(-1deg, 0.2deg);opacity: 0.75;}50% {transform: none;opacity: 1;}72% {transform: none;opacity: 1;}75% {transform: skew(0.4deg, 1deg);opacity: 0.75;}80% {transform: none;opacity: 1;}100% {transform: none;opacity: 1;}}
+  @keyframes ignielGlitch2{0% {transform: none;opacity: 0.25;}7% {transform: translate(-2px, -3px);opacity: 0.5;}10% {transform: none;opacity: 0.25;}27% {transform: none;opacity: 0.25;}30% {transform: translate(-5px, -2px);opacity: 0.5;}35% {transform: none;opacity: 0.25;}52% {transform: none;opacity: 0.25;}55% {transform: translate(-5px, -1px);opacity: 0.5;}50% {transform: none;opacity: 0.25;}72% {transform: none;opacity: 0.25;}75% {transform: translate(-2px, -6px);opacity: 0.5;}80% {transform: none;opacity: 0.25;}100% {transform: none;opacity: 0.25;}}
+  @-webkit-keyframes ignielGlitch2{0% {transform: none;opacity: 0.25;}7% {transform: translate(-2px, -3px);opacity: 0.5;}10% {transform: none;opacity: 0.25;}27% {transform: none;opacity: 0.25;}30% {transform: translate(-5px, -2px);opacity: 0.5;}35% {transform: none;opacity: 0.25;}52% {transform: none;opacity: 0.25;}55% {transform: translate(-5px, -1px);opacity: 0.5;}50% {transform: none;opacity: 0.25;}72% {transform: none;opacity: 0.25;}75% {transform: translate(-2px, -6px);opacity: 0.5;}80% {transform: none;opacity: 0.25;}100% {transform: none;opacity: 0.25;}}
+  @keyframes ignielGlitch3{0% {transform: none;opacity: 0.25;}7% {transform: translate(2px, 3px);opacity: 0.5;}10% {transform: none;opacity: 0.25;}27% {transform: none;opacity: 0.25;}30% {transform: translate(5px, 2px);opacity: 0.5;}35% {transform: none;opacity: 0.25;}52% {transform: none;opacity: 0.25;}55% {transform: translate(5px, 1px);opacity: 0.5;}50% {transform: none;opacity: 0.25;}72% {transform: none;opacity: 0.25;}75% {transform: translate(2px, 6px);opacity: 0.5;}80% {transform: none;opacity: 0.25;}100% {transform: none;opacity: 0.25;}}
+  @-webkit-keyframes ignielGlitch3{0% {transform: none;opacity: 0.25;}7% {transform: translate(2px, 3px);opacity: 0.5;}10% {transform: none;opacity: 0.25;}27% {transform: none;opacity: 0.25;}30% {transform: translate(5px, 2px);opacity: 0.5;}35% {transform: none;opacity: 0.25;}52% {transform: none;opacity: 0.25;}55% {transform: translate(5px, 1px);opacity: 0.5;}50% {transform: none;opacity: 0.25;}72% {transform: none;opacity: 0.25;}75% {transform: translate(2px, 6px);opacity: 0.5;}80% {transform: none;opacity: 0.25;}100% {transform: none;opacity: 0.25;}}
